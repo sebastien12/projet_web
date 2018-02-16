@@ -3,7 +3,7 @@
 	<button @click="toggleSend">nouveau message</button>
 	<br/>
 	<div v-if="showSend">
-		<label>To:</label>
+		<label>A:</label>
 		<input v-model="to">
 		<br/>
 		<label>Sujet:</label>
